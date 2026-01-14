@@ -3,7 +3,7 @@ return {
     opts = {
         windows = {
             backdrop = 0.95,
-            width = 300,
+            width = 120,
             height = 1,
         },
         plugins = {
