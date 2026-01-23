@@ -4,6 +4,7 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 
 vim.opt.spell = true
+vim.opt.more = false
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4 
@@ -29,5 +30,4 @@ vim.opt.scrolloff = 8
 vim.opt.updatetime = 50
 
 vim.g.mapleader = " "
-
 

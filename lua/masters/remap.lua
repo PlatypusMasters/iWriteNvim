@@ -9,7 +9,11 @@ vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+y")
 vim.keymap.set("n", "<leader>y", "\"+Y")
 
+vim.keymap.set({"n", "i", "v"}, "<C-z>", "<Nop>")
+
 vim.keymap.set("n", "<C-s>", ":!typst compile *typ <CR><CR>")
+vim.keymap.set("n", "<leader>pre", ":!zathura *.pdf &<CR><CR>")
+
 
 vim.keymap.set("n", "<leader>ww", function()
   vim.cmd("SoftPencil")
